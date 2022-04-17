@@ -10,4 +10,4 @@ st.title('World Bank Data - India')
 India=pd.read_csv("World_Bank_india2.csv")
 India.set_index('years',inplace=True)
 India.T
-col1,col2,col3=st.columns.([2,3])
+col1,col2,col3=st.beta_columns([2,3])
