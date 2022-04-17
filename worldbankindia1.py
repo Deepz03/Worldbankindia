@@ -8,7 +8,6 @@ st.title('World Bank Data - India')
 
 #importing the csv file
 India=pd.read_csv("World_Bank_india2.csv")
-st.table(India)
 India.set_index('years',inplace=True)
 India.T
-
+st.table(India)
