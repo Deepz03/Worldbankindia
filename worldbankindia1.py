@@ -7,6 +7,6 @@ import streamlit as st
 st.title('World Bank Data - India')
 
 #importing the csv file
-India=pd.read_csv("World_Bank_India2.csv")
+India=pd.read_csv("World_Bank_india2.csv")
 India.set_index('years',inplace=True)
 India.T
